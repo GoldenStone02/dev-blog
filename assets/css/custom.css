@@ -1,0 +1,13 @@
+span {
+    cursor: pointer;
+}
+
+figure > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+}
