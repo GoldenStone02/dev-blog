@@ -40,19 +40,19 @@ smartTOCHideUnfocusedChildren = true
   layout = "profile" # valid options: page, profile, hero, card, background, custom
   # homepageImage = "scene.jpg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/posts"
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
+  # showViews = false
+  # showLikes = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showAuthorBottom = false
   showHero = true
   heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
@@ -61,6 +61,7 @@ smartTOCHideUnfocusedChildren = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
+
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
@@ -77,6 +78,7 @@ smartTOCHideUnfocusedChildren = true
   showAuthorsBadges = false
   showWordCount = false
   # showZenMode = true
+  # sharingLinks = ["linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
   showHero = false
@@ -92,7 +94,6 @@ smartTOCHideUnfocusedChildren = true
   groupByYear = true
   cardView = false
   cardViewScreenWidth = false
-  constrainItemsWidth = false
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
