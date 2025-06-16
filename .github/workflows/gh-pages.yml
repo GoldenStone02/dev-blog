@@ -50,7 +50,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify -d ./public --baseURL ${{ steps.deployment.outputs.base_url }}
+          hugo --minify -d ./public --baseURL ${{ steps.pages.outputs.base_url }}
     
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
